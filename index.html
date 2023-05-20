@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <span class="title">Filter ui cards via their profession</span>
+        <select name="profession" id="profession">
+          <option value="">--Profession--</option>
+          <option value="D">Developer</option>
+          <option value="A">Admin</option>
+        </select>
+
+        <div class="user-list" id="user-list">
+          <div class="user-list-item">
+            <span class="user-number">1.</span> Name:
+            <span class="user-name">Adam</span> Profession:
+            <span class="user-profession">Developer</span> Age:
+            <span class="user-age">34</span>
+          </div>
+        </div>
+        <button id="filter-button" onclick="handleFilterClick()">Filter</button>
+
+        <form class="new-user-form" id="user-form">
+          <span class="title">Add a new User</span>
+          <div class="input-area">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name-input" />
+            </div>
+            <div>
+              <label for="profession">Profession</label>
+              <input type="text" id="profession-input" />
+            </div>
+            <div>
+              <label for="age">Age</label>
+              <input type="number" id="age-input" />
+            </div>
+          </div>
+          <button type="submit" onclick="handleAddClick()">Add</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

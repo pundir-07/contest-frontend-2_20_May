@@ -1,0 +1,75 @@
+.container{
+    margin: 20px;
+    border: 2px solid yellow;
+    height: 100vh;
+}
+body{
+    background-color: black;
+    overflow-x: hidden ;
+}
+.inner-container{
+    margin: 40px;
+}
+.title{
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+select{
+    margin-top: 50px;
+    background-color: black;
+    padding: 6px 12px;
+    border: 1px solid  white;
+    color: white;
+}
+
+/* User List area------------------------- */
+.user-list{
+    margin:20px 0px;
+}
+.user-list-item{
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: max-content;
+    color: white;
+    padding: 8px 14px;
+}
+.user-number, .user-name, .user-profession {
+    margin-right: 15px;
+}
+#filter-button{
+    width: 160px;
+    height: 40px;
+    margin-bottom: 100px;
+}
+
+/* form-area -----------------------------*/
+.new-user-form{
+
+}
+.input-area{
+    display: flex;
+    gap: 30px;
+}
+.new-user-form span{
+    margin-bottom: 30px;
+}
+.new-user-form input{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+.new-user-form label{
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+.new-user-form button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+}
